@@ -35,7 +35,7 @@ WebAssembly.instantiateStreaming(fetch('my.wasm'), {
 });
 ```
 
-Note that the seed is provided automatically when the [loader](https://www.assemblyscript.org/loader.html) is used or when WASI is imported.
+Notice that the seed is provided automatically when the [loader](https://www.assemblyscript.org/loader.html) is used or when WASI is imported.
 
 More details at https://www.assemblyscript.org/stdlib/math.html#using-nativemath
 
