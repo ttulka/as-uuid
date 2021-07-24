@@ -17,7 +17,7 @@ import uuid from "as-uuid";
 
 const id: string = uuid();  
 
-id; // "01234567-89abc-def01-2345-6789abcdef01"
+id; // "01234567-89ab-cdef-0123-456789abcdef"
 ```
 
 ### Using NativeMath
@@ -48,7 +48,7 @@ import uuid from "as-uuid/uuid-wasi";
 
 const id: string = uuid();  
 
-id; // "01234567-89abc-def01-2345-6789abcdef01"
+id; // "01234567-89ab-cdef-0123-456789abcdef"
 ```
 
 ```js

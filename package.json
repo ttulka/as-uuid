@@ -1,6 +1,6 @@
 {
   "name": "as-uuid",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "AssemblyScript library to generate RFC-compliant UUIDs v4 (random)",
   "author": "Tomas Tulka (ttulka)",
   "license": "MIT",
@@ -28,7 +28,7 @@
   },
   "devDependencies": {
     "@as-pect/cli": "^6.2.4",
-    "@assemblyscript/loader": "^0.19.7",
-    "assemblyscript": "^0.19.7"
+    "@assemblyscript/loader": "^0.19.8",
+    "assemblyscript": "^0.19.8"
   }
 }

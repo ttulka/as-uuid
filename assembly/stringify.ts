@@ -9,7 +9,7 @@ for (let i = 0; i < 256; i++) {
  * XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX
  */
 export default function stringify(arr: Uint8Array, offset: i32 = 0): string {
-    const uuid = (
+    return (
         byteToHex[arr[offset + 0]] +
         byteToHex[arr[offset + 1]] +
         byteToHex[arr[offset + 2]] +
@@ -30,7 +30,5 @@ export default function stringify(arr: Uint8Array, offset: i32 = 0): string {
         byteToHex[arr[offset + 13]] +
         byteToHex[arr[offset + 14]] +
         byteToHex[arr[offset + 15]]
-    ).toLowerCase();
-
-    return uuid;
+    );
 }
