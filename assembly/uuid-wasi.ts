@@ -1,8 +1,8 @@
 import "wasi";
 
 import rng from "./rng";
-import stringify from "./stringify";
+import v4 from "./v4";
 
 export default function uuid(): string {
-    return stringify(rng(crypto.getRandomValues));
+    return v4(rng(crypto.getRandomValues));
 }
