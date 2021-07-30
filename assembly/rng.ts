@@ -19,6 +19,6 @@ export default function rng(fillRandomValues: FillRandomValuesFn = _fillRandomVa
  */
 function _fillRandomValues(array: Uint8Array): void {
     for (let i = 0, l = array.length; i < l; i++) {
-        array[i] = u8(Math.random() * 256);
-    } 
+        unchecked(array[i] = u8(Math.random() * 256));
+    }
 }
