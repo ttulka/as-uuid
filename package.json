@@ -1,6 +1,6 @@
 {
   "name": "as-uuid",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "AssemblyScript library to generate RFC-compliant UUIDs v4 (random)",
   "author": "Tomas Tulka (ttulka)",
   "license": "MIT",
