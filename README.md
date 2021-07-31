@@ -5,7 +5,7 @@
 ## Install
 
 ```sh
-npm install --save as-uuid
+npm install as-uuid
 ```
 
 ## Use
