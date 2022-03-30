@@ -1,6 +1,6 @@
 {
   "name": "as-uuid",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "AssemblyScript library to generate RFC-compliant UUIDs v4 (random)",
   "author": "Tomas Tulka (ttulka)",
   "license": "MIT",
@@ -22,13 +22,12 @@
     "test:ci": "asp --summary",
     "test:wasi": "asp --config as-pect.config.wasi.js --verbose",
     "test:wasi:ci": "asp --config as-pect.config.wasi.js --summary",
-    "asbuild": "npm run asbuild:untouched && npm run asbuild:optimized",
-    "asbuild:untouched": "asc assembly/index.ts --target debug",
-    "asbuild:optimized": "asc assembly/index.ts --target release"
+    "asbuild:debug": "asc assembly/index.ts --target debug",
+    "asbuild:release": "asc assembly/index.ts --target release",
+    "asbuild": "npm run asbuild:debug && npm run asbuild:release"
   },
   "devDependencies": {
     "@as-pect/cli": "^6.2.4",
-    "@assemblyscript/loader": "^0.19.9",
-    "assemblyscript": "^0.19.9"
+    "assemblyscript": "^0.20.3"
   }
 }
